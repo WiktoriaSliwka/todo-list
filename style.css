@@ -1,0 +1,45 @@
+:root {
+    --primary: #ea40a4;
+    --business: #3A82ee;
+    --personal:var(--primary)
+    --light: #EEE;
+    --dark: #313154;
+    --danger: #ff5b57;
+
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+    --business-glow: 0px 0px 4px rgba(96, 142, 212, 0.75);
+    --personal-glow: 0px 0px 4px rgba(224, 135, 187, 0.75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space+Grotesk&display', sans-serif; 
+}
+
+input:not([type="radio"]):not([type="checkbox"]), button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: initial;
+}
+
+body{
+    background: var(--light);
+    color: var(--dark);
+
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+h3 {
+    color: var(--dark);
+}
